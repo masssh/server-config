@@ -1,1 +1,2 @@
-dummy: configclient
+dummy:
+  hoge: hello
