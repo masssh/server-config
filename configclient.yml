@@ -13,4 +13,4 @@ server:
   shutdown: graceful
   forward-headers-strategy: native
 dummy:
-  hoge: hello
+  hoge: fuga
