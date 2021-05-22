@@ -12,3 +12,5 @@ server:
     whitelabel.enabled: false
   shutdown: graceful
   forward-headers-strategy: native
+dummy:
+  hoge: hello
