@@ -1,2 +1,14 @@
-dummy:
-  hoge: hello
+spring:
+  application:
+    name: configclient
+  profiles:
+    active: local
+  lifecycle:
+    timeout-per-shutdown-phase: 60s
+server:
+  port: 28001
+  error:
+    path: /error
+    whitelabel.enabled: false
+  shutdown: graceful
+  forward-headers-strategy: native
